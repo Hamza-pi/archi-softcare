@@ -27,7 +27,7 @@ const KnownReg: React.FC = () => {
                 {study.label}
               </span>
             </CardHeader>
-            <CardContent className="p-4 xl:h-1/2 flex flex-col items-start justify-center col-span-3 overflow-hidden space-y-2 relative">
+            <CardContent className="p-4  flex flex-col items-start justify-center col-span-3 overflow-hidden space-y-2 relative">
               <h3 className="text-primary text-xl xl:text-2xl font-bold">
                 {study.title}
               </h3>
