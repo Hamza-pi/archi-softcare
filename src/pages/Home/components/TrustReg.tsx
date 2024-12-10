@@ -11,7 +11,7 @@ const TrustReg = () => {
   return (
     <section className="text-center font-bold tracking-tighter space-y-8 px-6">
       <h1 className="text-2xl md:text-3xl text-primary drop-shadow-[10px_10px_10px_rgba(0,0,0,0.7)]">
-        Top Home Care <VectorWord title="Registries" /> Trust Ally
+        Top Home Care <VectorWord title="Registries" /> Trust ArchiSoft Care
       </h1>
       <div className="relative mx-auto w-full sm:w-1/2 overflow-hidden">
         <div className="flex items-center justify-between animate-marquee">

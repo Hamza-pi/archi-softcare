@@ -75,7 +75,7 @@ export const navList: ListItems[] = [
     trigger: "Company",
     items: [
       {
-        label: "About Ally",
+        label: "About ArchiSoft Care",
         href: "#",
       },
       {
@@ -110,7 +110,7 @@ export const caseStudies: CaseStudie[] = [
   {
     imgUrl: kr2,
     title:
-      "Caregiver Registry gets Ahead of Compliance with Ally as their Technology Partner",
+      "Caregiver Registry gets Ahead of Compliance with ArchiSoft Care as their Technology Partner",
     type: `read the case study`,
     description: `Read about Ashley Skipper from VIP America and learn about their implementation of a system that brought them to a stronger state of compliance.`,
     label: "case study",

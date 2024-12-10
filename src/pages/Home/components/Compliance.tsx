@@ -37,7 +37,7 @@ const Compliance = () => {
           </h1>
           <div className="font-bold">
             <p className="drop-shadow-[10px_10px_50px_rgba(0,0,0,100)]">
-              Ally has it all:
+              ArchiSoft Care has it all:
             </p>
             <ul className="pl-1 lg:pl-2 space-y-2 py-2 lg:py-4">
               {complianceItems.map((item) => (

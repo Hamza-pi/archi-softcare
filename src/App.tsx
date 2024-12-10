@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router";
-import { HomePage } from "./pages";
+const Home = React.lazy(() => import("@/pages/Home/index"));
 const Layout = React.lazy(() => import("./components/shared/Layout"));
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<HomePage />} />
+          <Route index element={<Home />} />
         </Route>
       </Routes>
     </Router>

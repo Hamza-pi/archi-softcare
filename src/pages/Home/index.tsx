@@ -5,6 +5,7 @@ const TrustReg = React.lazy(() => import("./components/TrustReg"));
 const Counter = React.lazy(() => import("./components/Counter"));
 const KnownReg = React.lazy(() => import("./components/KnownReg"));
 const Effeciencies = React.lazy(() => import("./components/Efficiencies"));
+const PCA = React.lazy(() => import("./components/PCA"));
 
 const Home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
       <KnownReg />
       <TrustReg />
       <Effeciencies />
+      <PCA />
     </main>
   );
 };
