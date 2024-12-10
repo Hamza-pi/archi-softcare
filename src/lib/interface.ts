@@ -18,3 +18,18 @@ export interface AnimatedCounterProps {
   type?: string;
   className?: string;
 }
+
+export interface BannerProps {
+  bg: boolean;
+  heading: string;
+  btnTitle: string;
+  imgUrl: string;
+  reverse: boolean;
+  paragraph?: string;
+  btnVariant?: "primary" | "secondary" | "outline" | "link";
+  listItems?: string[];
+}
+
+export interface ListProps {
+  items: string[];
+}

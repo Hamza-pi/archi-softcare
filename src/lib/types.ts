@@ -1,3 +1,5 @@
+import { LucideProps } from "lucide-react";
+
 type ListItem = {
   label: string;
   href: string;
@@ -21,4 +23,15 @@ export type Efficieny = {
   issue: string;
   solution: string;
   domain: string;
+};
+
+export type Tab = {
+  value: string;
+  title: string;
+  items: string[];
+  imgUrl: string;
+  footerTitle: string;
+  icon: React.ForwardRefExoticComponent<
+    Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
+  >;
 };

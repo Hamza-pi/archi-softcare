@@ -1,7 +1,19 @@
-import { CaseStudie, Efficieny, ListItems } from "@/lib/types";
+import { CaseStudie, Efficieny, ListItems, Tab } from "@/lib/types";
 import kr1 from "@/assets/image/kr1.webp";
 import kr2 from "@/assets/image/kr2.webp";
 import kr3 from "@/assets/image/kr3.webp";
+import tab1 from "@/assets/image/tab1.webp";
+import tab2 from "@/assets/image/tab2.webp";
+import tab3 from "@/assets/image/tab3.webp";
+import tab4 from "@/assets/image/tab4.webp";
+import tab5 from "@/assets/image/tab5.webp";
+import {
+  BadgeCheck,
+  Cable,
+  CalendarDays,
+  CircleDollarSign,
+  HandCoins,
+} from "lucide-react";
 
 export const navList: ListItems[] = [
   {
@@ -154,5 +166,87 @@ export const efficiencies: Efficieny[] = [
     solution:
       "You have a more efficient registry requiring less staffing, giving you more margin to be competitive. ",
     domain: "Cash Flow",
+  },
+];
+
+export const tabs: Tab[] = [
+  {
+    value: "schedule",
+    title: "Schedule Care",
+    items: [
+      "Complete Scheduling System",
+      "Assign and Manage Care Plans",
+      "Manage Recurring Visits",
+      "Drag and Drop Schedule Changes",
+      "Easily Filter Clients & Caregivers",
+      "Customize Rates for Specific Schedules",
+      "Search Caregiver Availability",
+    ],
+    imgUrl: tab1,
+    footerTitle: "More on Scheduling",
+    icon: CalendarDays,
+  },
+  {
+    title: "Verify Care",
+    value: "verify",
+    items: [
+      "Electronic Visit Verification via GPS and Telephony",
+      "Eliminates Fraud, Fudging and Leakage",
+      "Manage Recurring Visits",
+      "Simple, clean user interface",
+      "Easily Filter Clients & Caregivers",
+      "No Unique ID Codes for Caregivers to Memorize",
+      "Easy for Caregivers to Learn and Use",
+      "Video Tutorials & Documentation Available",
+    ],
+    imgUrl: tab2,
+    footerTitle: "More on EVV & Mobile App",
+    icon: BadgeCheck,
+  },
+  {
+    title: "Process Payments",
+    value: "process",
+    items: [
+      "ArchiSoft Care will process all client charges via Credit Card or ACH",
+      "ArchiSoft Care's processing insulates the Registry and reduces the risk of being labeled the employer by the DOL",
+      "Manage Recurring VisitReposition in house labor from billing to marketing and sales",
+      "Easily view all Pending and Completed Charges",
+      "Easily Filter Clients & Caregivers",
+      "Manage credit card expirations",
+      "Send and track the status of insurance claims directly through ArchiSoft Care's integrated claims submission platform",
+    ],
+    imgUrl: tab3,
+    footerTitle: "More on Revenue Cycle: Payments",
+    icon: CircleDollarSign,
+  },
+  {
+    title: "Pay Caregivers & Registry",
+    value: "pay",
+    items: [
+      "Complete Scheduling System",
+      "Assign and Manage Care Plans",
+      "Manage Recurring Visits",
+      "Drag and Drop Schedule Changes",
+      "Easily Filter Clients & Caregivers",
+      "Customize Rates for Specific Schedules",
+      "Search Caregiver Availability",
+    ],
+    imgUrl: tab4,
+    footerTitle: "More on Revenue Cycle: Billing",
+    icon: HandCoins,
+  },
+  {
+    title: "Stay Connected",
+    value: "stay",
+    items: [
+      "Client portal to view all care details and pay statements",
+      "Caregiver portal to see all shifts worked and all payments received",
+      "Call and text message support for registries to stay connected to their clients and caregivers",
+      "Prebuilt reports for state and federal audits",
+      "Activity reports to see all care details and empowering the registry owner to make more informed business decisions",
+    ],
+    imgUrl: tab5,
+    footerTitle: "More on Family Room",
+    icon: Cable,
   },
 ];
