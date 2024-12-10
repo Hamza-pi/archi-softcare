@@ -9,11 +9,12 @@
 
     /* Bundler mode */
     "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "noEmit": false, // Set to false to allow compilation
+    "noEmit": true, // Set to false to allow compilation
     "jsx": "react-jsx",
 
     /* Linting */
