@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #ffffff;
+    --foreground: #ffffff;
+    --card: #ffffff;
+    --card-foreground: #ffffff;
+    --popover: #ffffff;
+    --popover-foreground: #ffffff;
+    --primary: #5a843b; /* New primary color */
+    --primary-foreground: #ffffff; /* Text color for primary */
+    --secondary: #deb742; /* New secondary color */
+    --secondary-foreground: #ffff; /* Text color for secondary */
+    --tertiary: #79a355; /* New tertiary color */
+    --tertiary-foreground: #ffffff; /* Text color for tertiary */
+    --muted: #ffe492; /* Using secondary as muted */
+    --muted-foreground: #79a355; /* Text color for muted */
+    --accent: #4f9cf9; /* Tertiary used as accent */
+    --accent-foreground: #ffffff; /* Text color for accent */
+    --destructive: #ff3b30; /* Red for destructive */
+    --destructive-foreground: #ffffff;
+    --border: #e0e0e0; /* Light border color */
+    --input: #e0e0e0; /* Light input background */
+    --ring: #5a843b; /* Use primary for ring color */
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: #ffffff;
+    --foreground: #ffffff;
+    --card: #ffffff;
+    --card-foreground: #ffffff;
+    --popover: #ffffff;
+    --popover-foreground: #ffffff;
+    --primary: #5a843b; /* New primary color */
+    --primary-foreground: #ffffff; /* Text color for primary */
+    --secondary: #deb742; /* New secondary color */
+    --secondary-foreground: #ffff; /* Text color for secondary */
+    --tertiary: #79a355; /* New tertiary color */
+    --tertiary-foreground: #ffffff; /* Text color for tertiary */
+    --muted: #ffe492; /* Using secondary as muted */
+    --muted-foreground: #79a355; /* Text color for muted */
+    --accent: #4f9cf9; /* Tertiary used as accent */
+    --accent-foreground: #ffffff; /* Text color for accent */
+    --destructive: #ff3b30; /* Red for destructive */
+    --destructive-foreground: #ffffff;
+    --border: #e0e0e0; /* Light border color */
+    --input: #e0e0e0; /* Light input background */
+    --ring: #5a843b; /* Use primary for ring color */
+  }
+}
+
+@font-face {
+  font-family: "dm";
+  src: url("./assets/font/static/DMSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground;
+    font-family: "dm", sans-serif;
+  }
+}
