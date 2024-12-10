@@ -81,9 +81,6 @@ module.exports = {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
-      backgroundImage: {
-        vector1: "url('./src/assets/image/vector.png')",
-      },
     },
   },
   plugins: [require("tailwindcss-animate")],
