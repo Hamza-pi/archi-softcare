@@ -12,10 +12,10 @@
     "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "noEmit": true, // Set to false to allow compilation
-    "jsx": "react-jsx",
 
     /* Linting */
     "strict": true,
