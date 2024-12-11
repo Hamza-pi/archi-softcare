@@ -13,7 +13,7 @@ const Banner: React.FC<BannerProps2> = ({
       className={`h-screen w-full bg-primary bg-[url('@/assets/image/vector.png')] bg-no-repeat bg-cover md:bg-contain bg-center mt-10 md:mt-0`}
     >
       <main
-        className={`h-full w-full max-w-screen-2xl mx-auto flex flex-col gap-0 md:gap-4 sm:flex-row items-center justify-end md:justify-center px-8 py-2 md:py-0 md:px-12`}
+        className={`h-full w-full max-w-screen-2xl mx-auto flex flex-col gap-0 md:gap-4 sm:flex-row items-center justify-center px-8 py-2 md:py-0 md:px-12`}
       >
         {/* Left Heading */}
         <motion.div
