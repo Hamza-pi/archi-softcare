@@ -21,11 +21,12 @@ export const navList: ListItems[] = [
     items: [
       {
         label: "Home care registries",
-        href: "#",
+        href: "who-we-help",
       },
       {
         label: "Home care agencies",
-        href: "#",
+        href: "https://caretime.us/?__hstc=41066109.50714eeedd38a2fb4537753f4f316d10.1733557561830.1733905090599.1733907655156.28&__hssc=41066109.1.1733907655156&__hsfp=604681892",
+        target: "_blank",
       },
     ],
     single: false,

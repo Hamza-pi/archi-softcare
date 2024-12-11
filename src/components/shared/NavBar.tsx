@@ -5,6 +5,7 @@ import SideBar from "./SideBar";
 import { AlignRight } from "lucide-react";
 import { SideBarProps } from "@/lib/interface";
 import { useEffect, useState } from "react";
+import { Link } from "react-router";
 
 const NavBar = ({ disp, setDisp }: SideBarProps) => {
   const [scrolled, setScrolled] = useState<boolean>(false);
@@ -27,9 +28,11 @@ const NavBar = ({ disp, setDisp }: SideBarProps) => {
           : "bg-zinc-800"
       } p-3 z-10 w-full top-0`}
     >
-      <div className="w-32 sm:w-48 h-14">
-        <img src={logo} alt="Logo" className="w-full h-full object-contain" />
-      </div>
+      <Link to={"/"}>
+        <div className="w-32 sm:w-48 h-14">
+          <img src={logo} alt="Logo" className="w-full h-full object-contain" />
+        </div>
+      </Link>
       <NavLinks />
       <div className="flex items-center gap-2 sm:gap-4">
         <Button

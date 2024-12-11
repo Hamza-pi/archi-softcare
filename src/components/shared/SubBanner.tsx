@@ -32,7 +32,9 @@ const SubBanner: React.FC<BannerProps> = ({
           whileInView={{ transform: "translateY(0px)", opacity: 1 }}
           transition={{ type: "spring", ease: "easeInOut", duration: 3 }}
           viewport={{ once: true }}
-          className="space-y-4 w-full md:w-1/3 flex flex-col items-center md:items-start justify-center gap-2 text-zinc-800 text-center md:text-left"
+          className={`space-y-4 w-full md:w-1/3 flex flex-col items-center md:items-start justify-center gap-2 ${
+            bg ? "text-slate-300" : "text-zinc-800"
+          } text-center md:text-left`}
         >
           <h1 className="text-xl xs:text-2xl xl:text-3xl !leading-[1.25] font-bold">
             {heading}

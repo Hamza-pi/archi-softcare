@@ -3,6 +3,7 @@ import { LucideProps } from "lucide-react";
 type ListItem = {
   label: string;
   href: string;
+  target?: "_blank" | "";
 };
 export type ListItems = {
   trigger: string;

@@ -12,6 +12,7 @@ const Effeciencies = React.lazy(() => import("./components/Efficiencies"));
 const PCA = React.lazy(() => import("./components/PCA"));
 const Features = React.lazy(() => import("./components/Features"));
 const SubBanner = React.lazy(() => import("@/components/shared/SubBanner"));
+const Calendar = React.lazy(() => import("@/components/shared/Calendar"));
 
 const Home: React.FC = () => {
   return (
@@ -56,6 +57,7 @@ const Home: React.FC = () => {
         btnVariant="link"
         paragraph="Easily calculate employee hours related to non-medical that can be reinvested when you switch to Ally."
       />
+      <Calendar />
     </main>
   );
 };

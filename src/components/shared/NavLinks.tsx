@@ -31,6 +31,7 @@ const NavLinks = () => {
                     <Link
                       key={childIndex}
                       to={childItem.href}
+                      target={childItem?.target || ""}
                       className="group/item w-full text-sm capitalize hover:text-secondary ease-in-out duration-300 transition-colors p-3 flex items-center gap-2"
                     >
                       <ChevronRight

@@ -64,6 +64,17 @@
 @layer base {
   * {
     @apply border-border;
+    &::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 7px;
+      background-color: transparent;
+      padding: 0 2px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background-color: #79a355;
+      -webkit-box-shadow: 0 0 1px hsla(0, 0%, 100%, 0.5);
+    }
   }
 
   body {

@@ -30,6 +30,11 @@ export interface BannerProps {
   listItems?: string[];
 }
 
+export type BannerProps2 = Pick<
+  BannerProps,
+  "heading" | "imgUrl" | "paragraph" | "btnVariant"
+>;
+
 export interface ListProps {
   items: string[];
 }
