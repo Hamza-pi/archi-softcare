@@ -22,7 +22,7 @@ const Features = () => {
       <p className="text-center text-lg text-primary font-medium ">
         Powerful features to help you run your home care registry.
       </p>
-      <main className="p-2 md:p-4 rounded-t-3xl">
+      <main className="p-2 md:p-4 rounded-t-3xl max-w-screen-2xl mx-auto">
         <Tabs defaultValue={tabs[0].value}>
           <TabsList className="w-full hidden md:flex grids grid-cols-5 justify-evenly">
             {tabs.map((tab) => (

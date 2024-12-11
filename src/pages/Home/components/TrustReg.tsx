@@ -9,7 +9,7 @@ const companyLogos: string[] = [t1, t2, t3, t4];
 const TrustReg = () => {
   const duplicatedLogos = [...companyLogos, ...companyLogos];
   return (
-    <section className="text-center font-bold tracking-tighter space-y-8 px-6">
+    <section className="text-center font-bold tracking-tighter space-y-8 px-6 max-w-screen-2xl mx-auto">
       <h1 className="text-2xl md:text-3xl text-primary drop-shadow-[10px_10px_10px_rgba(0,0,0,0.7)]">
         Top Home Care <VectorWord title="Registries" /> Trust ArchiSoft Care
       </h1>

@@ -13,7 +13,7 @@ const complianceItems: string[] = [
 
 const Compliance = () => {
   return (
-    <section className="px-2 xs:px-4 xl:px-12">
+    <section className="px-2 xs:px-4 xl:px-12 max-w-screen-2xl mx-auto">
       <motion.main
         initial={{ scale: 0.2 }}
         whileInView={{ scale: 1 }}

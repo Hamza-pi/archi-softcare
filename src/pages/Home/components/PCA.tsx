@@ -9,7 +9,7 @@ const PCA = () => {
       whileInView={{ scale: 1, opacity: 1 }}
       transition={{ type: "spring", ease: "ease-in-out", duration: 0.8 }}
       viewport={{ once: true }}
-      className="text-center text-2xl sm:text-3xl font-bold px-2 sm:px-6 md:px-12"
+      className="text-center text-2xl sm:text-3xl font-bold px-2 sm:px-6 md:px-12 max-w-screen-2xl mx-auto"
     >
       <main className="bg-tertiary rounded-3xl py-6 space-y-4">
         <div className="max-w-60 mx-auto">

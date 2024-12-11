@@ -14,7 +14,9 @@ const SubBanner: React.FC<BannerProps> = ({
   listItems,
 }) => {
   return (
-    <header className={`w-full px-2 sm:px-8 md:px-12 `}>
+    <header
+      className={`w-full max-w-screen-2xl mx-auto px-2 sm:px-8 md:px-12 `}
+    >
       <main
         className={`h-full w-full flex  ${
           reverse

@@ -4,9 +4,11 @@ import { motion } from "motion/react";
 
 const Banner = () => {
   return (
-    <header className={`h-screen w-full bg-primary`}>
+    <header
+      className={`h-screen w-full bg-primary bg-[url('@/assets/image/vector.png')] bg-no-repeat bg-cover md:bg-contain bg-center`}
+    >
       <main
-        className={`h-full w-full flex flex-col space-y-4 sm:flex-row items-center justify-center bg-[url('@/assets/image/vector.png')] bg-no-repeat bg-cover md:bg-contain bg-center px-8 md:px-12`}
+        className={`h-full w-full max-w-screen-2xl mx-auto flex flex-col space-y-4 sm:flex-row items-center justify-center px-8 md:px-12`}
       >
         {/* Left Heading */}
         <motion.div

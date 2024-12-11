@@ -9,7 +9,7 @@ const KnownReg: React.FC = () => {
       <h1 className="text-slate-50 md:text-3xl text-center font-bold">
         We Know Caregiver Registries
       </h1>
-      <main className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 xl:gap-8">
+      <main className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 xl:gap-8 max-w-screen-2xl mx-auto">
         {caseStudies.map((study) => (
           <Card
             key={study.title}

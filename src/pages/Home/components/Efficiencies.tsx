@@ -16,7 +16,7 @@ const Efficiencies = () => {
         We help maintain compliance, in addition to all your billing and
         administrative needs.
       </p>
-      <main className="bg-black/70 rounded-3xl py-8">
+      <main className="bg-black/70 rounded-3xl py-8 max-w-screen-2xl mx-auto">
         <div className="w-11/12 md:w-3/4 mx-auto space-y-4">
           <div className="hidden sm:grid grid-cols-3 text-sm text-secondary text-center font-bold">
             <h3>Without ArchiSoft Care your registry may face:</h3>
