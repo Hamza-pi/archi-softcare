@@ -15,7 +15,7 @@ const Specification = () => {
       <IconCard
         icon={grow}
         title="Grow Faster"
-        description="Ally automates payment processing allowing you to focus on sales and marketing."
+        description="ArchiSoft Care automates payment processing allowing you to focus on sales and marketing."
       />
       <IconCard
         icon={free}

@@ -55,7 +55,7 @@ const Home: React.FC = () => {
         heading="Potential Labor Savings"
         btnTitle="Check Out the Calculator"
         btnVariant="link"
-        paragraph="Easily calculate employee hours related to non-medical that can be reinvested when you switch to Ally."
+        paragraph="Easily calculate employee hours related to non-medical that can be reinvested when you switch to ArchiSoft Care."
       />
       <Calendar />
     </main>

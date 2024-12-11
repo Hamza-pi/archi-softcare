@@ -38,13 +38,13 @@ const Footer = () => {
           <div className={style2}>
             <a
               className={contactStyle}
-              href="https://www.linkedin.com/company/ally-ms/"
+              href="https://www.linkedin.com/company/ArchiSoft Care-ms/"
               target="_blank"
             >
               <Linkedin />
             </a>
             <a
-              href="https://www.facebook.com/people/Ally-MS/100064991194948/"
+              href="https://www.facebook.com/people/ArchiSoft Care-MS/100064991194948/"
               target="_blank"
               className={contactStyle}
             >

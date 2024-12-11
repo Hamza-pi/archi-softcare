@@ -33,8 +33,8 @@ const CalendarSection = () => {
           className={`${glassCardStyle} bg-white/20  space-y-2 text-zinc-800 hidden sm:block`}
         >
           <h3 className="font-semibold text-lg">
-            Join the Ally movement and see for yourself why our software is the
-            perfect fit for home care registries.
+            Join the ArchiSoft Care movement and see for yourself why our
+            software is the perfect fit for home care registries.
           </h3>
           <span className="flex items-center justify-between text-sm">
             <span>Looking for app or customer support?</span>
