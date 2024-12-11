@@ -28,13 +28,19 @@ export interface BannerProps {
   paragraph?: string;
   btnVariant?: "primary" | "secondary" | "outline" | "link";
   listItems?: string[];
+  className?: string;
 }
 
 export type BannerProps2 = Pick<
   BannerProps,
-  "heading" | "imgUrl" | "paragraph" | "btnVariant"
+  "heading" | "imgUrl" | "paragraph" | "btnVariant" | "className"
 >;
 
 export interface ListProps {
   items: string[];
+}
+
+export interface SmallBannerProps {
+  heading: string;
+  focuseHeading: string;
 }

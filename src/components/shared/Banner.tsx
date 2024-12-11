@@ -7,10 +7,11 @@ const Banner: React.FC<BannerProps2> = ({
   imgUrl,
   btnVariant,
   paragraph,
+  className,
 }) => {
   return (
     <header
-      className={`h-screen w-full bg-primary bg-[url('@/assets/image/vector.png')] bg-no-repeat bg-cover md:bg-contain bg-center mt-10 md:mt-0`}
+      className={`h-screen w-full bg-primary bg-[url('@/assets/image/vector.png')] bg-no-repeat bg-cover md:bg-contain bg-center mt-10 md:mt-0 ${className}`}
     >
       <main
         className={`h-full w-full max-w-screen-2xl mx-auto flex flex-col gap-0 md:gap-4 sm:flex-row items-center justify-center px-8 py-2 md:py-0 md:px-12`}
@@ -22,7 +23,9 @@ const Banner: React.FC<BannerProps2> = ({
           transition={{ type: "spring", ease: "easeInOut", duration: 3 }}
           className="space-y-4 w-full md:w-1/3 flex flex-col items-center md:items-start justify-center gap-2"
         >
-          <h1 className="text-xl xs:text-3xl xl:text-5xl !leading-[1.25] text-center md:text-left font-bold drop-shadow-[10px_0px_10px_rgba(0,0,0,100)]">
+          <h1
+            className={`text-xl xs:text-3xl xl:text-5xl !leading-[1.25] text-center md:text-left font-bold drop-shadow-[10px_0px_10px_rgba(0,0,0,100)] ${className}`}
+          >
             {heading}
           </h1>
           <p className="text-sm text-center md:text-left">{paragraph}</p>

@@ -4,13 +4,28 @@ import { motion } from "motion/react";
 import { Dot } from "lucide-react";
 
 const Comp: React.FC<{
-  items: string[];
-  img: string;
-  heading: string;
+  items?: string[];
+  img?: string;
+  heading?: string;
   vectorWord: string;
-  paragraph: string;
-  footerPara: string;
-}> = ({ items, img, heading, vectorWord, paragraph, footerPara }) => {
+  paragraph?: string;
+  footerPara?: string;
+  vectorWord1?: string;
+  vectorWord2?: string;
+  heading1?: string;
+  heading2?: string;
+}> = ({
+  items,
+  img,
+  heading,
+  vectorWord,
+  paragraph,
+  footerPara,
+  vectorWord1,
+  vectorWord2,
+  heading1,
+  heading2,
+}) => {
   return (
     <section className="px-2 xs:px-4 xl:px-12 max-w-screen-2xl mx-auto">
       <motion.main
@@ -33,12 +48,18 @@ const Comp: React.FC<{
           <h1 className="text-2xl lg:text-3xl font-bold lg:[word-spacing:-1px] text-primary">
             <VectorWord title={vectorWord} /> {heading}
           </h1>
+          <h1 className="text-2xl lg:text-3xl font-bold lg:[word-spacing:-1px] text-primary">
+            <VectorWord title={vectorWord1 || ""} /> {heading1}
+          </h1>
+          <h1 className="text-2xl lg:text-3xl font-bold lg:[word-spacing:-1px] text-primary">
+            <VectorWord title={vectorWord2 || ""} /> {heading2}
+          </h1>
           <div className="font-bold">
             <p className="drop-shadow-[10px_10px_50px_rgba(0,0,0,100)]">
               {paragraph}
             </p>
             <ul className="pl-1 lg:pl-2 space-y-2 py-2 lg:py-4">
-              {items.map((item) => (
+              {items?.map((item) => (
                 <li className="flex items-start gap-1" key={item}>
                   <div>
                     <Dot size={24} className="text-primary" />

@@ -1,6 +1,6 @@
 import { LucideProps } from "lucide-react";
 
-type ListItem = {
+export type ListItem = {
   label: string;
   href: string;
   target?: "_blank" | "";
@@ -35,4 +35,19 @@ export type Tab = {
   icon: React.ForwardRefExoticComponent<
     Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
   >;
+};
+
+export type RegEVVItems = {
+  icon: React.ForwardRefExoticComponent<
+    Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
+  >;
+  title: string;
+  href: string;
+  description: string;
+  imgUrl: string;
+};
+
+export type FAQ = {
+  question: string;
+  answer: string;
 };

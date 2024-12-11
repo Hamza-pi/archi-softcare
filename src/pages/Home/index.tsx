@@ -12,11 +12,10 @@ const Effeciencies = React.lazy(() => import("./components/Efficiencies"));
 const PCA = React.lazy(() => import("./components/PCA"));
 const Features = React.lazy(() => import("./components/Features"));
 const SubBanner = React.lazy(() => import("@/components/shared/SubBanner"));
-const Calendar = React.lazy(() => import("@/components/shared/Calendar"));
 
 const Home: React.FC = () => {
   return (
-    <main className="space-y-12">
+    <main className="space-y-6 sm:space-y-12">
       <Banner />
       <Compliance />
       <Counter />
@@ -57,7 +56,6 @@ const Home: React.FC = () => {
         btnVariant="link"
         paragraph="Easily calculate employee hours related to non-medical that can be reinvested when you switch to ArchiSoft Care."
       />
-      <Calendar />
     </main>
   );
 };

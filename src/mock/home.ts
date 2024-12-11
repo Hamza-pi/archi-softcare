@@ -36,23 +36,23 @@ export const navList: ListItems[] = [
     items: [
       {
         label: "Compliance",
-        href: "#",
+        href: "compliance",
       },
       {
         label: "Revenue Cycle: Billing & Payments",
-        href: "#",
+        href: "revenue-cycle-billing-payments",
       },
       {
         label: "Scheduling",
-        href: "#",
+        href: "scheduling",
       },
       {
         label: "Family Room",
-        href: "#",
+        href: "family-room",
       },
       {
         label: "EVV & Mobile App",
-        href: "#",
+        href: "electronic-visit-verification",
       },
     ],
     single: false,

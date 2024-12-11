@@ -10,7 +10,9 @@ const Layout = () => {
     <main className={`${disp ? "max-h-screen overflow-hidden" : ""}`}>
       <NavBar disp={disp} setDisp={setDisp} />
       <Outlet />
-      <Footer />
+      <div className="mt-4">
+        <Footer />
+      </div>
     </main>
   );
 };

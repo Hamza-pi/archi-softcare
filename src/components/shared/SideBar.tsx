@@ -1,15 +1,23 @@
+import { NavLink, useLocation } from "react-router";
 import { ChevronDown, X } from "lucide-react";
 import logo from "../../assets/image/logo.png";
 import { navList } from "@/mock/home";
-import { Link } from "react-router";
 import { useState } from "react";
 import { SideBarProps } from "@/lib/interface";
+import { ListItems } from "@/lib/types";
 
 const SideBar = ({ disp, setDisp }: SideBarProps) => {
-  const menuItemStyle =
-    "hover:text-secondary transition-colors duration-300 ease-in-out cursor-pointer border-b border-b-tertiary py-2";
+  const { pathname } = useLocation();
   const [open, setOpen] = useState<string | null>(null);
-  const [activeMenu, setActiveMenu] = useState<string | null>(null);
+
+  const menuItemStyle =
+    "transition-colors duration-300 ease-in-out cursor-pointer border-b border-b-tertiary py-2 w-full block";
+
+  const isCurrent = (item: ListItems): boolean => {
+    return item.items?.some((child) => pathname.includes(child.href))
+      ? true
+      : false;
+  };
 
   return (
     <aside
@@ -37,26 +45,33 @@ const SideBar = ({ disp, setDisp }: SideBarProps) => {
         <ul>
           {navList.map((item) =>
             item.single ? (
-              <li
-                key={item.trigger}
-                className={`${menuItemStyle} ${
-                  open === item.trigger ? "text-secondary" : ""
-                }`}
-                onClick={() => {
-                  setActiveMenu(null);
-                  setOpen((prev) =>
-                    prev === item.trigger ? null : item.trigger
-                  );
-                }}
-              >
-                <Link to={item.singalHref || "#"}>{item.trigger}</Link>
+              <li key={item.trigger} className="w-full">
+                <NavLink
+                  to={item.singalHref || "#"}
+                  className={({ isActive }) => `
+                    ${menuItemStyle}
+                    ${isActive ? "text-secondary" : "hover:text-secondary"}
+                  `}
+                  onClick={() => {
+                    setOpen(null);
+                    setDisp(false);
+                  }}
+                >
+                  {item.trigger}
+                </NavLink>
               </li>
             ) : (
-              <li key={item.trigger}>
+              <li key={item.trigger} className="w-full">
                 <div
-                  className={`flex items-center justify-between ${menuItemStyle} ${
-                    open === item.trigger ? "text-secondary" : ""
-                  }`}
+                  className={`
+                    flex items-center justify-between 
+                    ${menuItemStyle}
+                    ${
+                      open === item.trigger || isCurrent(item)
+                        ? "text-secondary"
+                        : "hover:text-secondary"
+                    }
+                  `}
                   onClick={() =>
                     setOpen((prev) =>
                       prev === item.trigger ? null : item.trigger
@@ -64,7 +79,13 @@ const SideBar = ({ disp, setDisp }: SideBarProps) => {
                   }
                 >
                   <p>{item.trigger}</p>
-                  <ChevronDown size={26} />
+                  <ChevronDown
+                    size={26}
+                    className={`
+                      transform transition-transform duration-300
+                      ${open === item.trigger ? "rotate-180" : ""}
+                    `}
+                  />
                 </div>
                 <ul
                   className={`px-2 ${
@@ -72,16 +93,21 @@ const SideBar = ({ disp, setDisp }: SideBarProps) => {
                   }`}
                 >
                   {item.items?.map((childItem) => (
-                    <li
-                      key={childItem.label}
-                      className={`${menuItemStyle} ${
-                        activeMenu === childItem.label ? "text-secondary" : ""
-                      }`}
-                      onClick={() => {
-                        setActiveMenu(childItem.label);
-                      }}
-                    >
-                      <Link to={childItem.href}>{childItem.label}</Link>
+                    <li key={childItem.label} className="w-full">
+                      <NavLink
+                        to={childItem.href}
+                        className={({ isActive }) => `
+                          ${menuItemStyle}
+                          ${
+                            isActive
+                              ? "text-secondary bg-accent/10"
+                              : "hover:text-secondary"
+                          }
+                        `}
+                        onClick={() => setDisp(false)}
+                      >
+                        {childItem.label}
+                      </NavLink>
                     </li>
                   ))}
                 </ul>

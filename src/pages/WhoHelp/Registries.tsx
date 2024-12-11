@@ -1,16 +1,15 @@
 import React from "react";
 const Banner = React.lazy(() => import("@/components/shared/Banner"));
 const Comp = React.lazy(() => import("@/components/shared/Comp"));
-const CalendarSection = React.lazy(
-  () => import("@/components/shared/Calendar")
-);
 const Specification = React.lazy(() => import("./components/Specification"));
+const EVV = React.lazy(() => import("./components/EVV"));
+
 import payments from "@/assets/image/Automate-Payments-1.webp";
 import registry from "@/assets/image/registries1.webp";
 
 const Registries = () => {
   return (
-    <section className="space-y-12">
+    <section className="space-y-6 sm:space-y-12">
       <Banner
         heading="Grow Your Registry Confidently with ArchiSoft Care"
         paragraph="All-in-one software platform that includes scheduling, payment processing, caregiver payments and claims submission."
@@ -32,7 +31,7 @@ const Registries = () => {
         footerPara=""
         paragraph="Get access to our electronic visit system to verify care and protect you from fraud. ArchiSoft Care will automate payments to your caregivers."
       />
-      <CalendarSection />
+      <EVV />
     </section>
   );
 };
