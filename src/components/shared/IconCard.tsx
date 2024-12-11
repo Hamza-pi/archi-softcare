@@ -18,12 +18,12 @@ const IconCard: React.FC<{
         <div className="w-20 mx-auto">
           <img src={icon} alt={title} />
         </div>
-        <CardTitle className="font-bold text-lg">{title}</CardTitle>
+        <CardTitle className="font-bold text-lg text-center">{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <p>{description}</p>
+        <p className="text-sm text-center">{description}</p>
       </CardContent>
-      <CardFooter>
+      <CardFooter className="flex items-center justify-end md:justify-center">
         <Button variant="outline" size={"icon"} className="text-xl">
           &rarr;
         </Button>
