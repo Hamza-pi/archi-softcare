@@ -18,7 +18,7 @@ const Comp: React.FC<{
         whileInView={{ scale: 1 }}
         transition={{ type: "spring", ease: "easeInOut", duration: 2 }}
         viewport={{ once: true }}
-        className={`lg:max-h-screen overflow-hidden w-full mx-auto flex flex-col md:grid md:grid-cols-2 items-start justify-center bg-secondary rounded-lg shadow-[0px_0px_50px_rgba(0,0,0,0.6)]`}
+        className={`xl:max-h-screen overflow-hidden w-full mx-auto flex flex-col md:grid md:grid-cols-2 items-start justify-center bg-secondary rounded-lg shadow-[0px_0px_50px_rgba(0,0,0,0.6)]`}
       >
         {/* Left Image */}
         <div className="w-full h-96 md:h-full">
@@ -39,7 +39,7 @@ const Comp: React.FC<{
             </p>
             <ul className="pl-1 lg:pl-2 space-y-2 py-2 lg:py-4">
               {items.map((item) => (
-                <li className="flex items-center gap-1" key={item}>
+                <li className="flex items-start gap-1" key={item}>
                   <div>
                     <Dot size={24} className="text-primary" />
                   </div>

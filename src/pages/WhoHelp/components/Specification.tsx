@@ -6,7 +6,7 @@ import evv from "@/assets/image/EVV-1.svg";
 
 const Specification = () => {
   return (
-    <section className="grid sm:grid-cols-2 md:grid-cols-4 gap-2 px-2 md:px-6 lg:px-12">
+    <section className="grid sm:grid-cols-2 md:grid-cols-4 gap-2 px-2 md:px-6 lg:px-12 max-w-screen-2xl mx-auto">
       <IconCard
         icon={dol}
         title="Reduce the Risk of DOL Non-Compliance"
