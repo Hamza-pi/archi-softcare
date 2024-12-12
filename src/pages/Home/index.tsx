@@ -30,6 +30,7 @@ const Home: React.FC = () => {
         reverse={false}
         heading="If (or when!) the DOL comes knocking, you've got a trusted partner by your side."
         btnTitle="Maintain Compliance with Ease"
+        route="compliance"
         paragraph="We provide a software platform that takes care of your general workflow and administrative needs while at the same time providing services that help mitigate the chance of being classified as an employer."
       />
       <SubBanner

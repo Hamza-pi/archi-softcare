@@ -3,6 +3,7 @@ import compliance from "../../../assets/image/compliance.webp";
 import VectorWord from "@/components/shared/VectorWord";
 import { motion } from "motion/react";
 import { Dot } from "lucide-react";
+import { Link } from "react-router";
 
 const complianceItems: string[] = [
   "Scheduling",
@@ -54,9 +55,12 @@ const Compliance = () => {
               maintain compliance.
             </p>
           </div>
-          <Button variant={"primary"} size={"lg"} className="">
-            Schedule a Demo
-          </Button>
+          <Link to={"/schedule"}>
+            {" "}
+            <Button variant={"primary"} size={"lg"} className="">
+              Schedule a Demo
+            </Button>
+          </Link>
         </div>
       </motion.main>
     </section>

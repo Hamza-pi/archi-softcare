@@ -21,7 +21,7 @@ const Banner = () => {
           <h1 className="text-xl xs:text-3xl xl:text-5xl !leading-[1.25] text-center md:text-left font-bold drop-shadow-[10px_0px_10px_rgba(0,0,0,100)]">
             Software & Billing Services Designed for Your Caregiver Registry
           </h1>
-          <Link to={"schedule"}>
+          <Link to={"/schedule"}>
             <Button variant={"secondary"} size={"lg"} className="">
               Schedule a Demo
             </Button>

@@ -105,7 +105,8 @@ export const navList: ListItems[] = [
   },
   {
     trigger: "Support",
-    singalHref: "#",
+    singalHref:
+      "https://caretime.zendesk.com/auth/v2/login/signin?return_to=https%3A%2F%2Fsupport.allyms.com%2Fhc%2Fen-us&theme=hc&locale=en-us&brand_id=5927484162075&auth_origin=5927484162075%2Ctrue%2Ctrue",
     single: true,
   },
 ];

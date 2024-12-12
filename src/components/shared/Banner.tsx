@@ -31,7 +31,7 @@ const Banner: React.FC<BannerProps2> = ({
             {heading}
           </h1>
           <p className="text-sm text-center md:text-left">{paragraph}</p>
-          <Link to={"schedule"}>
+          <Link to={"/schedule"}>
             <Button variant={btnVariant} size={"lg"} className="">
               Schedule a Demo
             </Button>

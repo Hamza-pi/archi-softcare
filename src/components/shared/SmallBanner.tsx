@@ -13,7 +13,7 @@ const SmallBanner: React.FC<SmallBannerProps> = ({
         <h1 className="w-11/12 md:w-2/3 mx-auto text-justify md:text-center">
           {heading} <span className="text-primary">{focuseHeading}</span>
         </h1>
-        <Link to={"schedule"}>
+        <Link to={"/schedule"}>
           <Button variant={"primary"} size={"lg"}>
             Schedule a Demo
           </Button>

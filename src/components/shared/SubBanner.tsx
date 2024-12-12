@@ -13,6 +13,7 @@ const SubBanner: React.FC<BannerProps> = ({
   paragraph,
   btnVariant = "primary",
   listItems,
+  route = "/schedule",
 }) => {
   return (
     <header
@@ -48,7 +49,7 @@ const SubBanner: React.FC<BannerProps> = ({
           ) : (
             ""
           )}
-          <Link to={"schedule"}>
+          <Link to={route}>
             <Button variant={btnVariant} size={"lg"}>
               {btnTitle}&nbsp;&rarr;
             </Button>

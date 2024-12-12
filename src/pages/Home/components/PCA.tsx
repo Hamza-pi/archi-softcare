@@ -1,6 +1,7 @@
 import pca from "@/assets/image/PCA.png";
 import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
+import { Link } from "react-router";
 
 const PCA = () => {
   return (
@@ -19,14 +20,16 @@ const PCA = () => {
           Official sponsor and recommended software solution of the Private Care
           Association.
         </h2>
-        <Button
-          variant={"outline"}
-          size={"lg"}
-          className="font-bold uppercase group"
-        >
-          Get in touch with us{" "}
-          <span className="group-hover:translate-x-2">&rarr;</span>
-        </Button>
+        <Link to={"/schedule"}>
+          <Button
+            variant={"outline"}
+            size={"lg"}
+            className="font-bold uppercase group"
+          >
+            Get in touch with us{" "}
+            <span className="group-hover:translate-x-2">&rarr;</span>
+          </Button>
+        </Link>
       </main>
     </motion.section>
   );

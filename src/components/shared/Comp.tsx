@@ -73,7 +73,7 @@ const Comp: React.FC<{
               {footerPara}
             </p>
           </div>
-          <Link to={"schedule"}>
+          <Link to={"/schedule"}>
             <Button variant={"primary"} size={"lg"} className="">
               Schedule a Demo
             </Button>
