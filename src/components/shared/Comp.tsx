@@ -34,10 +34,10 @@ const Comp: React.FC<{
         whileInView={{ scale: 1 }}
         transition={{ type: "spring", ease: "easeInOut", duration: 2 }}
         viewport={{ once: true }}
-        className={`xl:max-h-screen overflow-hidden w-full mx-auto flex flex-col md:grid md:grid-cols-2 items-start justify-center bg-secondary rounded-lg shadow-[0px_0px_50px_rgba(0,0,0,0.6)]`}
+        className={`overflow-hidden w-full mx-auto flex flex-col md:grid md:grid-cols-2 items-start justify-center bg-secondary rounded-lg shadow-[0px_0px_50px_rgba(0,0,0,0.6)]`}
       >
         {/* Left Image */}
-        <div className="w-full h-96 md:h-full">
+        <div className="w-full max-h-max">
           <img
             className="w-full h-full rounded-t-lg md:rounded-l-lg object-cover object-top"
             src={img}
@@ -49,12 +49,16 @@ const Comp: React.FC<{
           <h1 className="text-2xl lg:text-3xl font-bold lg:[word-spacing:-1px] text-primary">
             <VectorWord title={vectorWord} /> {heading}
           </h1>
-          <h1 className="text-2xl lg:text-3xl font-bold lg:[word-spacing:-1px] text-primary">
-            <VectorWord title={vectorWord1 || ""} /> {heading1}
-          </h1>
-          <h1 className="text-2xl lg:text-3xl font-bold lg:[word-spacing:-1px] text-primary">
-            <VectorWord title={vectorWord2 || ""} /> {heading2}
-          </h1>
+          {heading1 && (
+            <h1 className="text-2xl lg:text-3xl font-bold lg:[word-spacing:-1px] text-primary">
+              <VectorWord title={vectorWord1 || ""} /> {heading1}
+            </h1>
+          )}
+          {heading2 && (
+            <h1 className="text-2xl lg:text-3xl font-bold lg:[word-spacing:-1px] text-primary">
+              <VectorWord title={vectorWord2 || ""} /> {heading2}
+            </h1>
+          )}
           <div className="font-bold">
             <p className="drop-shadow-[10px_10px_50px_rgba(0,0,0,100)]">
               {paragraph}

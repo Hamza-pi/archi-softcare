@@ -35,13 +35,15 @@ const NavBar = ({ disp, setDisp }: SideBarProps) => {
       </Link>
       <NavLinks />
       <div className="flex items-center gap-2 sm:gap-4">
-        <Button
-          variant={"secondary"}
-          size={"lg"}
-          className="font-bold text-base shadow-md shadow-black/40"
-        >
-          Login
-        </Button>
+        <Link to={"https://app.allyms.com/login"} target="_blank">
+          <Button
+            variant={"secondary"}
+            size={"lg"}
+            className="font-bold text-base shadow-md shadow-black/40"
+          >
+            Login
+          </Button>
+        </Link>
         <Button
           variant={"outline"}
           size={"icon"}

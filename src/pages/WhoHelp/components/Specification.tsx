@@ -11,21 +11,25 @@ const Specification = () => {
         icon={dol}
         title="Reduce the Risk of DOL Non-Compliance"
         description="Our compliant payment processing reduces the risk of being labeled the employer by the DOL."
+        route="/compliance"
       />
       <IconCard
         icon={grow}
         title="Grow Faster"
         description="ArchiSoft Care automates payment processing allowing you to focus on sales and marketing."
+        route="/revenue-cycle-billing-payments"
       />
       <IconCard
         icon={free}
         title="Free Software"
         description="Stop paying license fees for your scheduling software. We NEVER charge license fees. Our software is free to home care registries."
+        route="/pricing"
       />
       <IconCard
         icon={evv}
         title="Electronic Visit Verification"
         description="Go paperless with our electronic visit system. Our telephony and native mobile app make clocking in and out seamless for caregivers."
+        route="/electronic-visit-verification"
       />
     </section>
   );

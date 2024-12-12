@@ -98,7 +98,7 @@ export const navList: ListItems[] = [
       },
       {
         label: "Referral Program",
-        href: "#",
+        href: "eferral-program",
       },
     ],
     single: false,
@@ -188,6 +188,7 @@ export const tabs: Tab[] = [
     imgUrl: tab1,
     footerTitle: "More on Scheduling",
     icon: CalendarDays,
+    route: "/scheduling",
   },
   {
     title: "Verify Care",
@@ -205,6 +206,7 @@ export const tabs: Tab[] = [
     imgUrl: tab2,
     footerTitle: "More on EVV & Mobile App",
     icon: BadgeCheck,
+    route: "/electronic-visit-verification",
   },
   {
     title: "Process Payments",
@@ -221,6 +223,7 @@ export const tabs: Tab[] = [
     imgUrl: tab3,
     footerTitle: "More on Revenue Cycle: Payments",
     icon: CircleDollarSign,
+    route: "/revenue-cycle-billing-payments",
   },
   {
     title: "Pay Caregivers & Registry",
@@ -237,6 +240,7 @@ export const tabs: Tab[] = [
     imgUrl: tab4,
     footerTitle: "More on Revenue Cycle: Billing",
     icon: HandCoins,
+    route: "/revenue-cycle-billing-payments",
   },
   {
     title: "Stay Connected",
@@ -251,5 +255,6 @@ export const tabs: Tab[] = [
     imgUrl: tab5,
     footerTitle: "More on Family Room",
     icon: Cable,
+    route: "/family-room",
   },
 ];

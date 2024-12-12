@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import { Button } from "../ui/button";
 import { ReactElement } from "react";
+import { Link } from "react-router";
 
 const IconCard: React.FC<{
   icon: string;
@@ -15,7 +16,16 @@ const IconCard: React.FC<{
   showBtn?: boolean;
   className?: string;
   element?: ReactElement;
-}> = ({ icon, title, description, showBtn = true, className, element }) => {
+  route?: string;
+}> = ({
+  icon,
+  title,
+  description,
+  showBtn = true,
+  className,
+  element,
+  route = "#",
+}) => {
   return (
     <Card className={`bg-zinc-800 ${className}`}>
       <CardHeader>
@@ -30,9 +40,11 @@ const IconCard: React.FC<{
       </CardContent>
       {showBtn && (
         <CardFooter className="flex items-center justify-end md:justify-center">
-          <Button variant="outline" size={"icon"} className="text-xl">
-            &rarr;
-          </Button>
+          <Link to={`${route}`}>
+            <Button variant="outline" size={"icon"} className="text-xl">
+              &rarr;
+            </Button>
+          </Link>
         </CardFooter>
       )}
     </Card>

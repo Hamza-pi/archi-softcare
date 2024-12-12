@@ -35,6 +35,7 @@ export type Tab = {
   icon: React.ForwardRefExoticComponent<
     Omit<LucideProps, "ref"> & React.RefAttributes<SVGSVGElement>
   >;
+  route: string;
 };
 
 export type RegEVVItems = {

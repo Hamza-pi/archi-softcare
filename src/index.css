@@ -61,6 +61,21 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "dm";
+  src: url("./assets/font/static/DMSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "dm";
+  src: url("./assets/font/static/DMSans_18pt-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer base {
   * {
     @apply border-border;

@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/select";
 import { tabs } from "@/mock/home";
 import List from "@/components/shared/List";
+import { Link } from "react-router";
 
 const Features = () => {
   return (
@@ -78,9 +79,13 @@ const Features = () => {
                   <CardContent className="space-y-2 text-sm flex items-start justify-between">
                     <div className="space-y-4">
                       <List items={tab.items} />
-                      <Button variant={"primary"} size={"lg"}>
-                        {tab.footerTitle}&nbsp;&rarr;
-                      </Button>
+                      <div>
+                        <Link to={tab.route}>
+                          <Button variant={"primary"} size={"lg"}>
+                            {tab.footerTitle}&nbsp;&rarr;
+                          </Button>
+                        </Link>
+                      </div>
                     </div>
                     <div className="w-96 hidden md:inline-flex">
                       <img
