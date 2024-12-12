@@ -62,7 +62,7 @@ const Banner: React.FC = () => {
             fees.
           </p>
           <Button variant={"secondary"} size={"lg"} className="">
-            Try For Free
+            Schedule a Demo
           </Button>
         </motion.div>
         {/* Right Section */}

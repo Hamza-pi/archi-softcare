@@ -44,7 +44,7 @@ const PayingCards = () => {
       <div className="text-center">
         <Link
           to={
-            "https://blog.allyms.com/is-ally-more-or-less-expensive-vs-in-house-processing?hsCtaTracking=df5ce58c-70b7-44a1-8577-485ed2aeafea%7C92f1cc90-cfcc-47b8-a2fa-eb4f19c830f0"
+            "https://blog.allyms.com/is-ArchiSoft Care-more-or-less-expensive-vs-in-house-processing?hsCtaTracking=df5ce58c-70b7-44a1-8577-485ed2aeafea%7C92f1cc90-cfcc-47b8-a2fa-eb4f19c830f0"
           }
           target="_blank"
         >

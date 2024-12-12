@@ -55,7 +55,7 @@ const Compliance = () => {
             </p>
           </div>
           <Button variant={"primary"} size={"lg"} className="">
-            Try For Free
+            Schedule a Demo
           </Button>
         </div>
       </motion.main>

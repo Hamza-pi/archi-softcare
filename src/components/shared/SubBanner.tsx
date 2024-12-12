@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
 import { BannerProps } from "@/lib/interface";
 import List from "./List";
+import { Link } from "react-router";
 
 const SubBanner: React.FC<BannerProps> = ({
   bg,
@@ -47,9 +48,11 @@ const SubBanner: React.FC<BannerProps> = ({
           ) : (
             ""
           )}
-          <Button variant={btnVariant} size={"lg"}>
-            {btnTitle}&nbsp;&rarr;
-          </Button>
+          <Link to={"schedule"}>
+            <Button variant={btnVariant} size={"lg"}>
+              {btnTitle}&nbsp;&rarr;
+            </Button>
+          </Link>
         </motion.div>
         {/* Right Image */}
         <motion.div

@@ -32,8 +32,8 @@ const Scheduling = () => {
 
       <SubBanner
         bg={false}
-        btnTitle="Try For Free"
-        heading="Ally’s scheduling includes:"
+        btnTitle="Schedule a Demo"
+        heading="ArchiSoft Care’s scheduling includes:"
         paragraph=""
         imgUrl={subBanner1}
         reverse={true}

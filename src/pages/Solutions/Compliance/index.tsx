@@ -23,7 +23,7 @@ const Compliance = () => {
       <Comp
         heading="the challenges you face in running a registry. "
         paragraph="Too often you find yourself balancing carefully between your business needs and ensuring that you are adhering to the workers classification regulations."
-        footerPara="You don’t have to manage this alone. With Ally you have a trusted partner that understands the registry model. We don’t just understand, we actively help protect you in the event of workers classification audits. "
+        footerPara="You don’t have to manage this alone. With ArchiSoft Care you have a trusted partner that understands the registry model. We don’t just understand, we actively help protect you in the event of workers classification audits. "
         items={[]}
         img={compImg}
         vectorWord="We understand "
@@ -33,23 +33,23 @@ const Compliance = () => {
       </h1>
       <SubBanner
         bg={false}
-        btnTitle="Try For Free"
+        btnTitle="Schedule a Demo"
         heading="Peace of Mind Before an Audit"
-        paragraph="Ally provides help with:"
+        paragraph="ArchiSoft Care provides help with:"
         imgUrl={subBanner1}
         reverse={true}
         listItems={[
-          "Ally will 1099-K under our company name, not yours since we are the payor of record.",
-          "Ally uses registry language and workflows that help reinforce the contractor model.",
-          "Ally will collect all fees from the families as well as disperse funds to caregivers and to you.",
-          "Ally keeps you compliant by allowing families to negotiate rates, approve timecards, and handle support requests from caregivers.",
+          "ArchiSoft Care will 1099-K under our company name, not yours since we are the payor of record.",
+          "ArchiSoft Care uses registry language and workflows that help reinforce the contractor model.",
+          "ArchiSoft Care will collect all fees from the families as well as disperse funds to caregivers and to you.",
+          "ArchiSoft Care keeps you compliant by allowing families to negotiate rates, approve timecards, and handle support requests from caregivers.",
         ]}
       />
       <SubBanner
         bg
-        btnTitle="Try For Free"
+        btnTitle="Schedule a Demo"
         heading="I've Been Audited — What Now?"
-        paragraph="Ally provides help with:"
+        paragraph="ArchiSoft Care provides help with:"
         imgUrl={subBanner2}
         reverse={false}
         listItems={[
@@ -59,7 +59,7 @@ const Compliance = () => {
         btnVariant="secondary"
       />
       <SmallBanner
-        heading="Registries that use Ally in the way it was designed, and adhere to state regulations correctly can increase their chances of"
+        heading="Registries that use ArchiSoft Care in the way it was designed, and adhere to state regulations correctly can increase their chances of"
         focuseHeading=" passing a workers classification audit by over 50%."
       />
     </main>

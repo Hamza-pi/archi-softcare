@@ -7,7 +7,7 @@ const Layout = () => {
   const [disp, setDisp] = useState<boolean>(false);
 
   return (
-    <main className={`${disp ? "max-h-screen overflow-hidden" : ""}`}>
+    <main className={`${disp ? "max-h-screen " : ""} overflow-hidden`}>
       <NavBar disp={disp} setDisp={setDisp} />
       <Outlet />
       <div className="mt-4">

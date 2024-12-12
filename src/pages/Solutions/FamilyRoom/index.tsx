@@ -30,8 +30,8 @@ const FamilyRoom = () => {
 
       <SubBanner
         bg={false}
-        btnTitle="Try For Free"
-        heading="With Ally's Family Room, your clients can:"
+        btnTitle="Schedule a Demo"
+        heading="With ArchiSoft Care's Family Room, your clients can:"
         paragraph=""
         imgUrl={subBanner1}
         reverse={true}

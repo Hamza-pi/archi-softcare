@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import VectorWord from "@/components/shared/VectorWord";
 import { motion } from "motion/react";
 import { Dot } from "lucide-react";
+import { Link } from "react-router";
 
 const Comp: React.FC<{
   items?: string[];
@@ -72,9 +73,11 @@ const Comp: React.FC<{
               {footerPara}
             </p>
           </div>
-          <Button variant={"primary"} size={"lg"} className="">
-            Try For Free
-          </Button>
+          <Link to={"schedule"}>
+            <Button variant={"primary"} size={"lg"} className="">
+              Schedule a Demo
+            </Button>
+          </Link>
         </div>
       </motion.main>
     </section>

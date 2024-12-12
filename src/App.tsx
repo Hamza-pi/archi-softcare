@@ -10,6 +10,7 @@ const Pricing = React.lazy(() => import("@/pages/Pricing"));
 const Glossary = React.lazy(() => import("@/pages/Resources/Glossary"));
 const About = React.lazy(() => import("@/pages/Company/About"));
 const Partner = React.lazy(() => import("@/pages/Company/Partner"));
+const Schedule = React.lazy(() => import("@/pages/Schedule"));
 
 const CustomerStories = React.lazy(
   () => import("@/pages/Resources/CustomerStories")
@@ -46,6 +47,7 @@ const App = () => {
           <Route path="caregiver-registry-glossary" element={<Glossary />} />
           <Route path="about" element={<About />} />
           <Route path="partners" element={<Partner />} />
+          <Route path="schedule" element={<Schedule />} />
         </Route>
       </Routes>
     </Router>

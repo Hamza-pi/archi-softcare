@@ -1,6 +1,7 @@
 import { SmallBannerProps } from "@/lib/interface";
 import React from "react";
 import { Button } from "../ui/button";
+import { Link } from "react-router";
 
 const SmallBanner: React.FC<SmallBannerProps> = ({
   heading,
@@ -12,9 +13,11 @@ const SmallBanner: React.FC<SmallBannerProps> = ({
         <h1 className="w-11/12 md:w-2/3 mx-auto text-justify md:text-center">
           {heading} <span className="text-primary">{focuseHeading}</span>
         </h1>
-        <Button variant={"primary"} size={"lg"}>
-          Schedule a Demo
-        </Button>
+        <Link to={"schedule"}>
+          <Button variant={"primary"} size={"lg"}>
+            Schedule a Demo
+          </Button>
+        </Link>
       </main>
     </section>
   );

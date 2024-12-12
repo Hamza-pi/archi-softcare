@@ -26,8 +26,8 @@ const MobileApp = () => {
           leakage and abuse associated with them.
         </h1>
         <p className="text-center mx-auto w-9/12">
-          Ally's Caregiver Mobile App is a simple and easy to use interface even
-          for the least tech savvy caregiver.
+          ArchiSoft Care's Caregiver Mobile App is a simple and easy to use
+          interface even for the least tech savvy caregiver.
         </p>
         <main className="p-2 flex flex-col md:flex-row items-start md:items-center justify-between">
           {/* Left */}

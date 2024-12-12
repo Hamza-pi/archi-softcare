@@ -114,8 +114,9 @@ const Glossary = () => {
             <li className="text-sm list-disc marker:text-primary font-semibold">
               Paying caregivers directly and writing the registry business name
               on a check can put the business at-risk for worker classification
-              issues. Third-party payment processing platforms like Ally can
-              assist in maintaining a clean business with a lower audit risk.
+              issues. Third-party payment processing platforms like ArchiSoft
+              Care can assist in maintaining a clean business with a lower audit
+              risk.
             </li>
           </ul>
         </div>

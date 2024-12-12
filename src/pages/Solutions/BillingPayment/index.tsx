@@ -21,7 +21,7 @@ const BillingPayment = () => {
       />
       <Comp
         heading="of spending hours every week making sure you’ve collected payments from your customers?"
-        paragraph="Frustrated by inaccurate payment reports causing inaccurate caregivers pay? We understand the challenges that you face. Using Ally for your billing and payments will improve accuracy, save you up to 10 hours a week, and put more money in your pocket."
+        paragraph="Frustrated by inaccurate payment reports causing inaccurate caregivers pay? We understand the challenges that you face. Using ArchiSoft Care for your billing and payments will improve accuracy, save you up to 10 hours a week, and put more money in your pocket."
         footerPara=""
         items={[]}
         img={compImg}
@@ -32,22 +32,22 @@ const BillingPayment = () => {
       </h1>
       <p className="text-center text-zinc-800 mx-auto w-9/12">
         Are you billing clients directly, using the two check system, or using a
-        third party payment processor? Ally will automate your client payments
-        and provide a 40% cost savings on payment processing. Our automated
-        weekly process removes the burden on your clients while ensuring a
-        healthy cash flow and collection cycle for your registry. Our client
-        portal provides clients and their families with full visibility of care
-        details so they can see how Mom and Dad are doing 24 / 7 / 365.
+        third party payment processor? ArchiSoft Care will automate your client
+        payments and provide a 40% cost savings on payment processing. Our
+        automated weekly process removes the burden on your clients while
+        ensuring a healthy cash flow and collection cycle for your registry. Our
+        client portal provides clients and their families with full visibility
+        of care details so they can see how Mom and Dad are doing 24 / 7 / 365.
       </p>
       <SubBanner
         bg={false}
-        btnTitle="Try For Free"
+        btnTitle="Schedule a Demo"
         heading="Billing"
         paragraph=""
         imgUrl={subBanner1}
         reverse={true}
         listItems={[
-          "Custom invoices with Ally as the payor of record to maintain compliance",
+          "Custom invoices with ArchiSoft Care as the payor of record to maintain compliance",
           "Accounts Receivable management  ",
           "Aging",
           "Powerful Reporting ",
@@ -55,18 +55,18 @@ const BillingPayment = () => {
       />
       <SubBanner
         bg
-        btnTitle="Try For Free"
+        btnTitle="Schedule a Demo"
         heading="Payment Processing"
-        paragraph="Ally provides help with:"
+        paragraph="ArchiSoft Care provides help with:"
         imgUrl={subBanner2}
         reverse={false}
         listItems={[
-          "Ally will process all client charges via Credit Card or ACH",
-          "Ally's processing insulates the Registry and reduces the risk of being labeled the employer by the DOL",
+          "ArchiSoft Care will process all client charges via Credit Card or ACH",
+          "ArchiSoft Care's processing insulates the Registry and reduces the risk of being labeled the employer by the DOL",
           "Reposition in house labor from billing to marketing and sales",
           "Easily view all Pending and Completed Charges",
           "Manage credit card expirations",
-          "Send and track the status of insurance claims directly through Ally's integrated claims submission platform",
+          "Send and track the status of insurance claims directly through ArchiSoft Care's integrated claims submission platform",
         ]}
         btnVariant="secondary"
       />

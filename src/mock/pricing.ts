@@ -77,7 +77,7 @@ export const pricingFAQ: FAQ[] = [
       "We work with all sizes of registries, from start up to enterprise.",
   },
   {
-    question: "What type of payors can Ally handle?",
+    question: "What type of payors can ArchiSoft Care handle?",
     answer:
       "All types of payors including medicaid, veterans administration, long term care insurance, and private pay.",
   },

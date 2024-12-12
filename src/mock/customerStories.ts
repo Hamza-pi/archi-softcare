@@ -8,7 +8,7 @@ export const storyCard: StoryCard[] = [
     imgUrl: cs1,
     badgeTitle: "Compliance",
     title:
-      "Ally Enables Nurse Registry to Consolidate Systems and Meet Regulations",
+      "ArchiSoft Care Enables Nurse Registry to Consolidate Systems and Meet Regulations",
     description:
       "Case Study with Natalie Savadge from Indian River Home Care PLUS",
     footerTitle: "Read the case study",
@@ -17,7 +17,7 @@ export const storyCard: StoryCard[] = [
     imgUrl: cs2,
     badgeTitle: "DOL Audit",
     title:
-      "Ally Enables Nurse Registry to Consolidate Systems and Meet Regulations",
+      "ArchiSoft Care Enables Nurse Registry to Consolidate Systems and Meet Regulations",
     description:
       "Case Study with Natalie Savadge from Indian River Home Care PLUS",
     footerTitle: "Read the case study",
@@ -26,7 +26,7 @@ export const storyCard: StoryCard[] = [
     imgUrl: cs3,
     badgeTitle: "Efficiency",
     title:
-      "Ally Enables Nurse Registry to Consolidate Systems and Meet Regulations",
+      "ArchiSoft Care Enables Nurse Registry to Consolidate Systems and Meet Regulations",
     description:
       "Case Study with Natalie Savadge from Indian River Home Care PLUS",
     footerTitle: "Read the case study",

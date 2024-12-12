@@ -20,7 +20,7 @@ const About = () => {
         <IconCard
           icon={card1}
           title="Mitigate Worker Classification Audits"
-          description="Protect your business against workers' classification audits with Ally."
+          description="Protect your business against workers' classification audits with ArchiSoft Care."
           showBtn={false}
         />
         <IconCard
@@ -32,7 +32,7 @@ const About = () => {
         <IconCard
           icon={card4}
           title="Streamlined Payments with Direct Caregiver Payouts"
-          description="Ally provides an extra layer of separation by facilitating direct payments to caregivers."
+          description="ArchiSoft Care provides an extra layer of separation by facilitating direct payments to caregivers."
           showBtn={false}
         />
         <IconCard
@@ -44,13 +44,13 @@ const About = () => {
         <IconCard
           icon={card6}
           title="Maximize Efficiency for Business Growth"
-          description="Enhance efficiency with Ally, freeing up resources and allowing you to focus on business expansion and competitiveness."
+          description="Enhance efficiency with ArchiSoft Care, freeing up resources and allowing you to focus on business expansion and competitiveness."
           showBtn={false}
         />
       </main>
       <SmallBanner
         heading="Questions? We've got you covered.
-We're here to answer any questions you have about Ally."
+We're here to answer any questions you have about ArchiSoft Care."
         focuseHeading=""
       />
     </section>

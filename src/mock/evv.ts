@@ -19,7 +19,7 @@ export const EvvFaqs: FAQ[] = [
   {
     question: "Is the app available for iOS and Android?",
     answer:
-      "Yes, the Ally mobile app is available in both iOS and Google Play stores.",
+      "Yes, the ArchiSoft Care mobile app is available in both iOS and Google Play stores.",
   },
   {
     question: "What is the cost of your EVV system?",

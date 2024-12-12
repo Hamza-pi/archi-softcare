@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
 import { BannerProps2 } from "@/lib/interface";
+import { Link } from "react-router";
 
 const Banner: React.FC<BannerProps2> = ({
   heading,
@@ -30,9 +31,11 @@ const Banner: React.FC<BannerProps2> = ({
             {heading}
           </h1>
           <p className="text-sm text-center md:text-left">{paragraph}</p>
-          <Button variant={btnVariant} size={"lg"} className="">
-            Try For Free
-          </Button>
+          <Link to={"schedule"}>
+            <Button variant={btnVariant} size={"lg"} className="">
+              Schedule a Demo
+            </Button>
+          </Link>
         </motion.div>
         {/* Right Image */}
         <motion.div

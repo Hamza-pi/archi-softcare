@@ -28,7 +28,7 @@ const CustomerStories: React.FC = () => {
           Don't take our word for it.
         </p>
         <p className="text-2xl font-bold text-zinc-800 w-9/12 mx-auto">
-          Hear what others have to say about Ally.
+          Hear what others have to say about ArchiSoft Care.
         </p>
       </div>
       <main className="grid md:grid-cols-2 xl:grid-cols-3 gap-2">
