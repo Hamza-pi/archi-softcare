@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.7.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F9C647;}
+	.st1{fill:#27316D;}
+	.st2{fill:#58ABDF;}
+</style>
+<g>
+	<g>
+		<g>
+			<polygon class="st0" points="7.4,200 7.4,92.5 7.4,38.6 46,0 153.7,0 153.7,39.9 153.7,92.5 153.7,200 			"/>
+			<g>
+				<polygon class="st1" points="46,38.6 7.4,38.6 46,0 				"/>
+				<polygon class="st0" points="7.4,38.6 46,38.6 7.4,77.2 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g>
+	<rect x="38" y="58.2" class="st1" width="4" height="9.5"/>
+	<rect x="38" y="99.4" class="st1" width="4" height="9.5"/>
+	<path class="st1" d="M41.5,85.6h-3.2c-5.5,0-9.9-4.5-9.9-9.9s4.5-9.9,9.9-9.9h3.2c5.5,0,9.9,4.5,9.9,9.9h-4c0-3.3-2.7-5.9-5.9-5.9
+		h-3.2c-3.3,0-5.9,2.7-5.9,5.9s2.7,5.9,5.9,5.9h3.2V85.6z"/>
+	<path class="st1" d="M41.5,101.4h-3.2c-5.5,0-9.9-4.5-9.9-9.9h4c0,3.3,2.7,5.9,5.9,5.9h3.2c3.3,0,5.9-2.7,5.9-5.9s-2.7-5.9-5.9-5.9
+		h-3.2v-4h3.2c5.5,0,9.9,4.5,9.9,9.9S47,101.4,41.5,101.4z"/>
+</g>
+<g>
+	<polygon class="st2" points="169,86.7 182,98.9 119,162.6 93.3,180.3 86.4,181 91.7,167.6 129,125.8 	"/>
+	<path class="st1" d="M183.4,101.1l-2.8-2.8l6.7-6.7c1.7-1.7,1.7-4.4,0-6.1l-4.5-4.5c-1.6-1.6-4.5-1.6-6.1,0l-6.7,6.7l-2.8-2.8
+		l6.7-6.7c1.6-1.6,3.7-2.4,5.9-2.4c2.2,0,4.3,0.9,5.9,2.4l4.5,4.5c3.3,3.3,3.3,8.5,0,11.8L183.4,101.1z"/>
+	<rect x="121.1" y="119" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -38.4894 149.087)" class="st1" width="79.3" height="4"/>
+	
+		<rect x="107.6" y="105.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -32.916 135.631)" class="st1" width="79.3" height="4"/>
+	<path class="st1" d="M89.5,183c-1.3,0-2.3-0.3-3.1-1.1c-8.1-8.1,30.8-47.2,32.5-48.9l2.8,2.8c-23.9,23.9-33.7,40.6-32.4,43.3
+		c2.6,1.1,19.3-8.6,43.2-32.5l2.8,2.8C133.8,151,101.6,183,89.5,183z"/>
+	
+		<rect x="79.7" y="181.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -105.2258 113.5614)" class="st1" width="9.5" height="4"/>
+	<polygon class="st1" points="131.9,112.3 129,109.5 161.8,76.7 184,96.9 181.2,99.8 161.8,82.3 	"/>
+	
+		<rect x="135.2" y="121.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -52.5222 135.3917)" class="st1" width="4" height="19"/>
+</g>
+<rect x="59" y="68.9" class="st1" width="70" height="4"/>
+<rect x="59" y="81.6" class="st1" width="70" height="4"/>
+<rect x="59" y="94.3" class="st1" width="35" height="4"/>
+</svg>

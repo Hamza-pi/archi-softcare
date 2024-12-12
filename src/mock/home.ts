@@ -59,7 +59,7 @@ export const navList: ListItems[] = [
   },
   {
     trigger: "Pricing",
-    singalHref: "#",
+    singalHref: "pricing",
     single: true,
   },
   {
@@ -67,19 +67,20 @@ export const navList: ListItems[] = [
     items: [
       {
         label: "Read Our Blog",
-        href: "#",
+        href: "https://blog.allyms.com",
+        target: "_blank",
       },
       {
         label: "Content Library",
-        href: "#",
+        href: "content-library",
       },
       {
         label: "Customer Stories",
-        href: "#",
+        href: "customer-stories",
       },
       {
         label: "Caregiver Registry Glossary",
-        href: "#",
+        href: "caregiver-registry-glossary",
       },
     ],
     single: false,
@@ -89,11 +90,11 @@ export const navList: ListItems[] = [
     items: [
       {
         label: "About ArchiSoft Care",
-        href: "#",
+        href: "about",
       },
       {
         label: "Partners & Integrations",
-        href: "#",
+        href: "partners",
       },
       {
         label: "Referral Program",

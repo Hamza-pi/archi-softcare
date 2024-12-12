@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import bannerImage from "@/assets/image/bannerImg1.webp";
+import bannerImage from "@/assets/image/bannerImg.png";
 import { motion } from "motion/react";
 
 const Banner = () => {

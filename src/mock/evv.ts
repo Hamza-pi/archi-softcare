@@ -1,6 +1,6 @@
 import { FAQ } from "@/lib/types";
 
-export const faqs: FAQ[] = [
+export const EvvFaqs: FAQ[] = [
   {
     question: "Do caregivers need to memorize a pin code for each client?",
     answer:

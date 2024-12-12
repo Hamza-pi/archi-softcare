@@ -1,9 +1,10 @@
 import React from "react";
 import bannerImg from "@/assets/image/evv1.webp";
 import compImg from "@/assets/image/evv2.webp";
-import FAQ from "./components/FAQ";
+import FAQ from "../../../components/shared/FAQ";
 import MobileApp from "./components/MobileApp";
 import Cards from "./components/Cards";
+import { EvvFaqs } from "@/mock/evv";
 const Comp = React.lazy(() => import("@/components/shared/Comp"));
 const Banner = React.lazy(() => import("@/components/shared/Banner"));
 
@@ -30,7 +31,7 @@ const EVV = () => {
       />
       <MobileApp />
       <Cards />
-      <FAQ />
+      <FAQ faqs={EvvFaqs} />
     </main>
   );
 };

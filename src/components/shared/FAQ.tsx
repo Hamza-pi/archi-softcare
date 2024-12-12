@@ -4,9 +4,9 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { faqs } from "@/mock/evv";
+import { FAQ as FAQProps } from "@/lib/types";
 
-const FAQ = () => {
+const FAQ: React.FC<{ faqs: FAQProps[] }> = ({ faqs }) => {
   return (
     <section className="space-y-4 sm:space-y-8">
       <h1 className="text-center font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-zinc-800">

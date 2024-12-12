@@ -6,6 +6,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "../ui/button";
+import { ReactElement } from "react";
 
 const IconCard: React.FC<{
   icon: string;
@@ -13,7 +14,8 @@ const IconCard: React.FC<{
   description: string;
   showBtn?: boolean;
   className?: string;
-}> = ({ icon, title, description, showBtn = true, className }) => {
+  element?: ReactElement;
+}> = ({ icon, title, description, showBtn = true, className, element }) => {
   return (
     <Card className={`bg-zinc-800 ${className}`}>
       <CardHeader>
@@ -23,7 +25,8 @@ const IconCard: React.FC<{
         <CardTitle className="font-bold text-lg text-center">{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <p className="text-sm text-center">{description}</p>
+        {description && <p className="text-sm text-center">{description}</p>}
+        {element && <>{element}</>}
       </CardContent>
       {showBtn && (
         <CardFooter className="flex items-center justify-end md:justify-center">

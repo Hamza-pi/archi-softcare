@@ -39,11 +39,11 @@ const CalendarForm = ({ selectedDate }: { selectedDate: Date }) => {
       phone: "",
     },
   });
+
   function onSubmit(values: z.infer<typeof formSchema>) {
-    // Do something with the form values.
-    // ✅ This will be type-safe and validated.
     console.log(values);
   }
+
   return (
     <div className="mx-auto w-full max-w-sm">
       <DrawerHeader className="px-0">

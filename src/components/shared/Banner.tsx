@@ -8,6 +8,7 @@ const Banner: React.FC<BannerProps2> = ({
   btnVariant,
   paragraph,
   className,
+  imgStyle,
 }) => {
   return (
     <header
@@ -40,7 +41,11 @@ const Banner: React.FC<BannerProps2> = ({
           transition={{ type: "spring", ease: "easeInOut", duration: 3 }}
           className="xs:w-2/3 md:w-2/5"
         >
-          <img className="w-full" src={imgUrl} alt="Banner Image" />
+          <img
+            className={`w-full ${imgStyle}`}
+            src={imgUrl}
+            alt="Banner Image"
+          />
         </motion.div>
       </main>
     </header>

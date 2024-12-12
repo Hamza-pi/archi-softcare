@@ -51,3 +51,29 @@ export type FAQ = {
   question: string;
   answer: string;
 };
+
+export type PricingCard = {
+  icon: string;
+  title: string;
+  price: string;
+  includeText: string;
+};
+
+export type ContentCard = {
+  imgUrl: string;
+  title?: string;
+  titleP?: string;
+  contentHeading?: string;
+  listHeading?: string;
+  listStyle?: "list-disc" | "list-decimal";
+  list?: string[];
+  footerBtn: string;
+};
+
+export type StoryCard = {
+  badgeTitle: string;
+  title: string;
+  imgUrl: string;
+  description: string;
+  footerTitle: string;
+};

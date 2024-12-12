@@ -29,11 +29,12 @@ export interface BannerProps {
   btnVariant?: "primary" | "secondary" | "outline" | "link";
   listItems?: string[];
   className?: string;
+  imgStyle?: string;
 }
 
 export type BannerProps2 = Pick<
   BannerProps,
-  "heading" | "imgUrl" | "paragraph" | "btnVariant" | "className"
+  "heading" | "imgUrl" | "paragraph" | "btnVariant" | "className" | "imgStyle"
 >;
 
 export interface ListProps {
